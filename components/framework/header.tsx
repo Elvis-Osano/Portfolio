@@ -48,7 +48,7 @@ function Header() {
           </motion.div>
         </div>
 
-        <div className="w-2/5 h-full bg-black flex justify-center relative items-center">
+        <div className="w-2/5 h-full  flex justify-center relative items-center">
           <Image
             src="/head1.gif"
             alt="head"
