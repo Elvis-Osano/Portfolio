@@ -1,14 +1,26 @@
 import Link from "next/link";
+import { motion } from "framer-motion";
 
-const IndexPage = () => (
-  <div className="flex flex-col items-center justify-center h-screen ">
-    <h1 className="text-xl font-bold ">Hello from Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
-  </div>
-);
+import Head from "next/head";
+import Header from "@/Framework/header";
+import Skills from "@/Framework/skill";
+
+const IndexPage = () => {
+  return (
+    <main>
+      <Head>
+        <title>Elvis Osano</title>
+      </Head>
+
+      <motion.div
+        initial={{ backgroundColor: "#101010" }}
+        animate={{ backgroundColor: "#fff" }}
+      >
+        <Header />
+        <Skills />
+      </motion.div>
+    </main>
+  );
+};
 
 export default IndexPage;
