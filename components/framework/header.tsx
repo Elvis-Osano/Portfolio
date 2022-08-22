@@ -15,7 +15,7 @@ function Header() {
             <big>Hi there,Meet</big>
             <motion.h1
               initial={{ y: 100 }}
-              animate={{ fontSize: 66, y: 0 }}
+              animate={{ fontSize: 66, y: 0 }} 
               className="text-3xl font-extrabold "
             >
               Elvis Osano
