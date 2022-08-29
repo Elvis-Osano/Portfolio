@@ -16,6 +16,7 @@
     "jsx": "preserve",
     "paths": {
       "@/Framework/*": ["components/framework/*"],
+      "@/Cards/*": ["components/cards/*"],
       "@styles": ["Styles/*"]
     },
     "incremental": true
