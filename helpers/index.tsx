@@ -9,19 +9,19 @@ export const skills: skill[] = [
   {
     name: "Code",
     icon: <AtomSpinner color="black" size={200} />,
-    description: "Am skilled in several languages:Python,Typescript,c++,Java",
+    description: "From creating wireframes to high quality mockups, I adore taking part in the conception phase of any product.",
   },
   {
     name: "Develop",
     icon: <SelfBuildingSquareSpinner color="black" size={200} />,
     description:
-      "Proficcinet with javascript and python web frameworks:React,Django,Nextjs,Astro",
+      "With a text editor and a vision, I'm a sucker for writing code. Breathing life into designs excites me.",
   },
   {
     name: "Deploy",
     icon: <BreedingRhombusSpinner color="black" size={200} />,
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit.oluptates dignissimos harum distinctio fugiat",
+      "Provisioning resources and the entire complete architecture to the cloud is the awesomeness that I thrive in.",
   },
 ];
 type skill = {

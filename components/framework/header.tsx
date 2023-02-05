@@ -3,7 +3,7 @@ import { Button, Stack } from "@mui/material";
 import { motion } from "framer-motion";
 function Header() {
   return (
-    <section className="min-h-[90vh] flex w-full items-center   ">
+    <section className="min-h-[90vh] m-7 flex w-full items-center   ">
       <div className="flex items-center  justify-between h-full w-full">
         <div className="w-3/5 flex items-center justify-center">
           <motion.div
@@ -14,9 +14,10 @@ function Header() {
           >
             <big>Hi there,Meet</big>
             <motion.h1
-              initial={{ y: 100 }}
-              animate={{ fontSize: 66, y: 0 }} 
-              className="text-3xl font-extrabold "
+              initial={{ y: -200, opacity: 0 }}
+              animate={{ fontSize: 66, y: 0, opacity: 1 }}
+              className="text-3xl text-black font-extrabold "
+              transition={{ delay: 2, duration: 1 }}
             >
               Elvis Osano
             </motion.h1>
