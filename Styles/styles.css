@@ -10,19 +10,23 @@
 body {
   margin: 0;  
   width: 100%;
-  color: rgba(0, 0, 0, 0.8);
+ 
   transition: all 300ms ease-in-out;
-  overflow-x: hidden;
-  background-image: url("../public/body-bg.png");
+ 
+  background-image: url("../public/bg.png");
+  /* background-image: url("../public/body-bg.png"); */
   padding: 0;
   line-height: 26px;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  /* font-size: 15px; */
+  font-size: 1rem;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 400;
-  background-color: aliceblue;
+  /* background-color: #f0f8ff; */
+  /* background-color: #fff; */
+  background-color: #cbedd5;
   color: #777777;
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth!important;
 }

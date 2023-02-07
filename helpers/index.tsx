@@ -1,4 +1,5 @@
 import React from "react";
+import * as animationData from "../public/coding guy.json"
 import {
   SelfBuildingSquareSpinner,
   AtomSpinner,
@@ -28,4 +29,12 @@ type skill = {
   name: string;
   icon: React.ReactElement;
   description: string;
+};
+export const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: 'xMidYMid slice'
+  }
 };

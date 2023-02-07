@@ -9,7 +9,7 @@ function Skills() {
       <div className="grid grid-cols-3">
         {skills.map((item, i) => (
           <div className="flex flex-col gap-3" key={i}>
-            <h3 className="text-center font-extrabold text-black">{item.name}</h3>
+            <h3 className="text-center text-lg font-extrabold text-black">{item.name}</h3>
             <div className="flex items-center justify-center">{item.icon}</div>
             <p className="my-2 text-center">{item.description}</p>
 
