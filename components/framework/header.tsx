@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Header() {
 
   return (
-    <section className="min-h-[90vh] mb-16 flex w-full items-center   ">
+    <section className="min-h-[90vh] my-7 flex w-full items-center   ">
       <div className="flex items-center  justify-between h-full w-full">
 
         <div className="w-3/5 flex items-center justify-center">
@@ -24,7 +24,7 @@ function Header() {
             >
               Elvis Osano
             </motion.h1>
-            <h4 className="font-bold"> Developer • Techie • Consultant</h4>
+            <h4 className="font-bold font-sans"> Developer • Techie • Consultant</h4>
             <p className="text-center">
               I love building solid and scalable software with great user
               experiences. Highly skilled in web and cross-platform mobile app
@@ -54,11 +54,13 @@ function Header() {
 
         <div className="w-2/5 h-full  flex justify-center relative items-center">
           <Image
-            src="/head3.gif"
+            src="/images/head.gif"
             alt="head"
             className="absolute"
-            width={540}
-            height={340}
+            width={397}
+            height={297}
+            placeholder="blur"
+            blurDataURL="./h.jpg"
           />
         </div>
       </div>

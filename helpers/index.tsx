@@ -1,5 +1,5 @@
 import React from "react";
-import * as animationData from "../public/coding guy.json"
+import * as animationData from "../public/images/coding guy.json"
 import {
   SelfBuildingSquareSpinner,
   AtomSpinner,
@@ -10,7 +10,7 @@ export const skills: skill[] = [
   {
     name: "Code",
     icon: <AtomSpinner color="black" size={200} />,
-    description: "From creating wireframes to high quality mockups, I adore taking part in the conception phase of any product.",
+    description: "From creating architectures to high quality mockup wireframes, I adore taking part in the conception phase of any product.",
   },
   {
     name: "Develop",
@@ -38,3 +38,13 @@ export const defaultOptions = {
     preserveAspectRatio: 'xMidYMid slice'
   }
 };
+export const tech = ["nextjs-13",
+  "framer-motion",
+  "tailwindcss",
+  "nest",
+  "docker-1",
+  "aws-2",
+  "gitlab",
+  "debian-2",
+  "postgresql"
+]

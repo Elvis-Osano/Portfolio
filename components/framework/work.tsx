@@ -11,7 +11,7 @@ const Work = () => {
 
     return (
         <section className='w-5/6 mb-24 mx-auto grid grid-cols-2'>
-            <h1 className='text-3xl font-bold text-center w-full col-span-2 my-5 text-black'>Work Experience</h1>
+            <h1 className='text-3xl font-bold text-center w-full col-span-2 mb-16 text-black'>Work Experience</h1>
             <div className=" w-[400px]">
                 <Lottie options={defaultOptions}
                     height={400}

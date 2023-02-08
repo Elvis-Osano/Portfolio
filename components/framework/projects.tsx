@@ -2,39 +2,36 @@ import ProjectCard from "@/Cards/projectCard";
 
 const Projects: React.FC = () => {
   return (
-    <section className="min-h-screen">
-      <h1 className="text-2xl text-center font-extrabold py-8">
-        My Recent Work
+    <section className="w-5/6 mx-auto mb-24">
+      <h1 className="text-4xl font-extrabold pt-8">
+        QUALITY WORK <br />
+        RECENTLY DONE PROJECT
       </h1>
-
-      <div className="flex flex-col gap-20 w-11/12 h-80vh mx-auto grid-rows-2">
-        {Array(3)
-          .fill(10)
-          .map((item, i) => {
-            return i % 2 === 0 ? (
-              <ProjectCard
-                key={i}
-                classnames={{
-                  order: "",
-                  position: "justify-end items-end right-0",
-                  align: "text-right",
-                  image: "h-80",
-                  width: ["w-1/2 ", "w-1/2"],
-                }}
-              />
-            ) : (
-              <ProjectCard
-                key={i}
-                classnames={{
-                  order: "order-last",
-                  position: "justify-center items-start left-0",
-                  align: "text-left",
-                  image: "h-[450px]",
-                  width: ["w-2/3", "w-1/3"],
-                }}
-              />
-            );
-          })}
+      <ul className="uppercase flex gap-8  my-10 items-center">
+        <li className="text-[#f56]">
+          All
+        </li>
+        <li>
+          Popular
+        </li>
+        <li>
+          Latest
+        </li>
+        <li>
+          Following
+        </li>
+        <li>
+          Upcoming
+        </li>
+      </ul>
+      <div className="grid grid-cols-3 gap-3 h-max">
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </section>
   );
