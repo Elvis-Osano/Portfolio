@@ -1,9 +1,7 @@
-import { Container } from "@mui/material";
-
 import { skills } from "helpers";
 function Skills() {
   return (
-    <Container className="mb-24">
+    <section className="w-5/6 mx-auto mb-24">
       <h1 className="text-3xl text-center mb-24 p-3 capitalize font-bold text-black">What I can do for you</h1>
 
       <div className="grid grid-cols-3">
@@ -16,7 +14,7 @@ function Skills() {
           </div>
         ))}
       </div>
-    </Container>
+    </section>
   );
 }
 

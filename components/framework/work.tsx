@@ -1,8 +1,5 @@
-import { Button } from '@mui/material';
 import { defaultOptions } from 'helpers';
-import Image from 'next/image'
-import React from 'react'
-import { MdAdd } from "react-icons/md"
+import { AiOutlinePlus } from "react-icons/ai";
 
 import Lottie from 'react-lottie';
 const Work = () => {
@@ -31,7 +28,7 @@ const Work = () => {
                         </div>
 
                         <p className='flex  col-span-2'>Cyber Security</p>
-                        <span className='flex justify-end'><MdAdd className='text-black cursor-pointer' /></span>
+                        <span className='flex justify-end'><AiOutlinePlus className='text-black cursor-pointer' /></span>
                     </li>
                     <li className='border-b-[1px] border-black grid grid-cols-5 px-4 py-1 gap-4 items-center h-max w-full'>
                         <div className='flex flex-col  justify-center col-span-2'>
@@ -42,7 +39,7 @@ const Work = () => {
                         </div>
 
                         <p className='flex  col-span-2'>Wordpress Tech</p>
-                        <span className='flex justify-end'><MdAdd className='text-black cursor-pointer' /></span>
+                        <span className='flex justify-end'><AiOutlinePlus className='text-black cursor-pointer' /></span>
                     </li>
                     <li className='border-b-[1px] border-black grid grid-cols-5 px-4 py-1 gap-4 items-center h-max w-full'>
                         <div className='flex flex-col  justify-center col-span-2'>
@@ -53,7 +50,7 @@ const Work = () => {
                         </div>
 
                         <p className='flex  col-span-2'>SaaS Application</p>
-                        <span className='flex justify-end'><MdAdd className='text-black cursor-pointer' /></span>
+                        <span className='flex justify-end'><AiOutlinePlus className='text-black cursor-pointer' /></span>
                     </li>
                     <li className='border-b-[1px] border-black grid grid-cols-5 px-4 py-1 gap-4 items-center h-max w-full'>
                         <div className='flex flex-col  justify-center col-span-2'>
@@ -64,7 +61,7 @@ const Work = () => {
                         </div>
 
                         <p className='flex  col-span-2'>Network Developer</p>
-                        <span className='flex justify-end'><MdAdd className='text-black cursor-pointer' /></span>
+                        <span className='flex justify-end'><AiOutlinePlus className='text-black cursor-pointer' /></span>
                     </li>
 
 
