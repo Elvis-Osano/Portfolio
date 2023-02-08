@@ -70,7 +70,7 @@ const Work = () => {
 
                 </ul>
                 <center className='my-16'>
-                    <Button variant='outlined' className='bg-[#f56] text-white rounded-full shadow-none hover:bg-transparent border-[#f56] hover:text-black hover:shadow-none  hover:border-black'>Let's Connect On LinkedIn</Button>
+                    <button className='bg-[#f56] border px-3 py-1 text-white rounded-full shadow-none hover:bg-transparent border-[#f56] hover:text-black hover:shadow-none  hover:border-black'>Let's Connect On LinkedIn</button>
 
                 </center>
             </div>

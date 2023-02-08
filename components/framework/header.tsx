@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Button, Stack } from "@mui/material";
+
+
 import { motion } from "framer-motion";
 
 function Header() {
@@ -31,37 +31,30 @@ function Header() {
               development. Over 2 years of experience building products for
               clients across several countries.
             </p>
-            <Stack direction="row" gap={5}>
+            <div className="flex gap-5">
               <motion.div
                 initial={{ x: "-100vw" }}
                 animate={{ x: 0 }}
                 transition={{ delay: 2.5, duration: 1 }}
               >
-                <Button variant="outlined" className="text-[#f56] hover:border-blue-500 hover:text-blue-500 border-[#f56]">
+                <button className="text-[#f56] border px-2 py-1 rounded hover:border-black outline-1 hover:text-black border-[#f56]">
                   Download CV
-                </Button>
+                </button>
               </motion.div>
               <motion.div
                 initial={{ x: "100vw" }}
                 animate={{ x: 0 }}
                 transition={{ delay: 2.5, duration: 1 }}
               >
-                <Button variant="outlined" className="hover:border-black hover:text-black ">Hire Me</Button>
+                <button className="hover:border-[#f56] hover:text-[#f56] border px-2 py-1 rounded  border-black">Hire Me</button>
               </motion.div>
-            </Stack>
+            </div>
           </motion.div>
         </div>
 
         <div className="w-2/5 h-full  flex justify-center relative items-center">
-          <Image
-            src="/images/head.gif"
-            alt="head"
-            className="absolute"
-            width={397}
-            height={297}
-            placeholder="blur"
-            blurDataURL="./h.jpg"
-          />
+
+          <video src="/images/head.webm" autoPlay muted loop></video>
         </div>
       </div>
     </section>
