@@ -1,4 +1,3 @@
-
 import { tech } from "helpers";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,9 +15,6 @@ const Contact = () => {
               className="grayscale w-[75px] h-[75px] cont-image align-middle"
               width={75}
               height={75}
-
-
-
             />
             <span className="pop hidden absolute -top-4 left-0 border h-4 text-sm  bg-black/50 p-0 text-white capitalize">{item.split("-")[0]}</span>
           </div>

@@ -2,7 +2,7 @@ import ProjectCard from "@/Cards/projectCard";
 import { useAnimation, motion } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-const Projects: React.FC = () => {
+const Projects = () => {
   const animation = useAnimation()
   const { ref, inView, entry } = useInView({
     threshold: 0.1, triggerOnce: true

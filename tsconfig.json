@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@/Framework/*": ["components/framework/*"],
+      "@Framework": ["components/framework"],
       "@/Cards/*": ["components/cards/*"],
       "@styles": ["Styles/*"]
     },

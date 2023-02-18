@@ -57,7 +57,7 @@ const Work = () => {
                 } className='lg:text-center text-center px-2  my-5 '>From spearheading projects to collaborating with talented colleagues, most of my experience is largely attributed to these awesome places I've been a part of.</motion.p>
                 <motion.ul >
                     {[1, 2, 3, 4, 5, 6].map((work, i) => <motion.li animate={animation} transition={{
-                        duration: 1,
+                        duration: 0.6,
                         delay: i * 0.5
                     }} key={i} className='border-t-[1px] work border-black grid grid-cols-5 px-4 py-1 gap-4 items-center h-max w-full'>
                         <div className='flex flex-col justify-center col-span-2'>

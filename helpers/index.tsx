@@ -48,3 +48,33 @@ export const tech = ["nextjs-13",
   "debian-2",
   "postgresql"
 ]
+export const container = {
+  hidden: {
+    opacity: 0
+  },
+  visible: (i: number = 1) => ({
+    opacity: 1,
+    transition: { staggerChildren: 0.1, delayChildren: i * 0.09 }
+  })
+};
+
+export const child = {
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      damping: 12,
+      stiffness: 200
+    }
+  },
+  hidden: {
+    opacity: 0,
+    y: 20,
+    transition: {
+      type: "spring",
+      damping: 12,
+      stiffness: 200
+    }
+  }
+};

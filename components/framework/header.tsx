@@ -1,49 +1,12 @@
-
-
 import { motion } from "framer-motion";
-
+import { child, container } from "helpers";
 function Header() {
-  const container = {
-    hidden: {
-      opacity: 0
-    },
-    visible: (i: number = 1) => ({
-      opacity: 1,
-      transition: { staggerChildren: 0.1, delayChildren: i * 0.09 }
-    })
-  };
-
-  const child = {
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        damping: 12,
-        stiffness: 200
-      }
-    },
-    hidden: {
-      opacity: 0,
-      y: 20,
-      transition: {
-        type: "spring",
-        damping: 12,
-        stiffness: 200
-      }
-    }
-  };
-
   return (
     <section className="lg:min-h-[90vh] min-h-[80vh]   flex w-full header items-center">
       <div className="flex items-center justify-between h-full w-full">
-
-
         <div className="w-full sm:w-3/5 flex items-center justify-center">
           <motion.div
             className="lg:w-4/5 md:w-full px-3 flex items-center justify-center flex-col lg:gap-8 gap-12"
-
-
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3 }}
