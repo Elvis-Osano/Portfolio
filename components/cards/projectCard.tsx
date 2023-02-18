@@ -8,10 +8,13 @@ const ProjectCard: React.FC = () => {
         <Image
           src="/images/house.png"
           alt="house"
-
+          priority
           className="absolute"
 
           fill
+          sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
         />
       </div>
       <div className="flex flex-col">

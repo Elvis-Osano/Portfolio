@@ -7,9 +7,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+li.work:last-child{
+  @apply border-b-[1px]
+  
+}
+div.cont:hover img.cont-image{
+  filter: none;
+}
+div.cont:hover span.pop{
+  display: flex;
+  align-items: center;
+}
 body {
   margin: 0;  
   width: 100%;
+  
  
   transition: all 300ms ease-in-out;
  
@@ -32,4 +44,10 @@ main{
 
 html {
   scroll-behavior: smooth!important;
+}
+section{
+  @apply mt-24
+}
+section.header{
+  @apply mt-7
 }
