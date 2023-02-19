@@ -78,3 +78,57 @@ export const child = {
     }
   }
 };
+export interface projectInt {
+  title: string;
+  desc: string;
+  image: string;
+}
+export const projectData: projectInt[] = [
+  {
+    title: "Sally Forster Hills",
+    desc: "Real Estate,Beverly",
+    image: "/images/house.png"
+  }
+  ,
+  {
+    title: "Apex Ranger",
+    desc: "Fast Food, Restaurant",
+    image: "/images/apex.png"
+  }
+  ,
+  {
+    title: "Sally Forster Hills",
+    desc: "Real Estate,Beverly",
+    image: "/images/house.png"
+  }
+  ,
+  {
+    title: "Apex Ranger",
+    desc: "Fast Food, Restaurant",
+    image: "/images/apex.png"
+  }
+  ,
+  {
+    title: "Sally Forster Hills",
+    desc: "Real Estate,Beverly",
+    image: "/images/house.png"
+  }
+  ,
+  {
+    title: "Apex Ranger",
+    desc: "Fast Food, Restaurant",
+    image: "/images/apex.png"
+  }
+
+  ,
+  {
+    title: "Sally Forster Hills",
+    desc: "Real Estate,Beverly",
+    image: "/images/house.png"
+  }
+
+
+
+
+
+]

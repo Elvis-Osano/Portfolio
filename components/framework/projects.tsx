@@ -1,5 +1,6 @@
 import ProjectCard from "@/Cards/projectCard";
 import { useAnimation, motion } from "framer-motion";
+import { projectData } from "helpers";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 const Projects = () => {
@@ -58,12 +59,12 @@ const Projects = () => {
       </ul>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 h-max" ref={ref}>
         {
-          [1, 2, 5, 9, 6, 7, 9].map((item, i) =>
+          projectData.map((project, i) =>
             <motion.div key={i} animate={animation} transition={{
               duration: 1,
               delay: i * 0.5
             }}>
-              <ProjectCard />
+              <ProjectCard project={project} />
             </motion.div>
           )
         }

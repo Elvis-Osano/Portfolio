@@ -33,7 +33,7 @@ function Header() {
             <p className="text-center">
               I love building solid and scalable software with great user
               experiences. Highly skilled in web and cross-platform mobile app
-              development. Over 2 years of experience building products for
+              development. Over 4 years of experience building products for
               clients across several countries.
             </p>
             <div className="flex flex-row sm:flex-row gap-5">
