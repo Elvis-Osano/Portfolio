@@ -97,9 +97,9 @@ export const projectData: projectInt[] = [
   }
   ,
   {
-    title: "Sally Forster Hills",
-    desc: "Real Estate,Beverly",
-    image: "/images/house.png"
+    title: "Whisper Cinema Show",
+    desc: "Entertainment,SaaS",
+    image: "/images/whisper.png"
   }
   ,
   {
@@ -115,9 +115,9 @@ export const projectData: projectInt[] = [
   }
   ,
   {
-    title: "Apex Ranger",
-    desc: "Fast Food, Restaurant",
-    image: "/images/apex.png"
+    title: "Whisper Cinema Show",
+    desc: "Entertainment,SaaS",
+    image: "/images/whisper.png"
   }
 
   ,
